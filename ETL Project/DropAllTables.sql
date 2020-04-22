@@ -1,0 +1,13 @@
+/*DROP ALL TABLES*/
+IF OBJECT_ID('FactStoreSales') IS NOT NULL
+DROP TABLE FactStoreSales;
+IF OBJECT_ID('DimCustomer') IS NOT NULL
+DROP TABLE DimCustomer;
+IF OBJECT_ID('DimStore') IS NOT NULL
+DROP TABLE DimStore;
+IF OBJECT_ID('DimDate') IS NOT NULL
+DROP TABLE DimDate;
+IF OBJECT_ID('DimProduct') IS NOT NULL
+DROP TABLE DimProduct;
+IF OBJECT_ID('DimSalesPerson') IS NOT NULL
+DROP TABLE DimSalesPerson
