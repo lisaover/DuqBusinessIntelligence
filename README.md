@@ -1,7 +1,12 @@
-# SQLSampleScripts
-SQL scripts from Business Intelligence course projects at Duquesne. 
+# DuqBusinessIntelligence
+SQL scripts and SQL Server (SQL Server 2012) project files from Business Intelligence course at Duquesne Spring 2015
 
 The _Intro to SQL Server Data Tools.pdf_ file contains information about SQL Server including links to more information online.
+
+## ETL Project
+The goal of this project was to design and implement a data warehouse for the ficticious BIke Project Company (hereafter BIke). BIke executives have declared that a new data warehouse is to be the center piece of their Data Driven Decision Making strategic initiative and must be capable of answering typical business intelligence (BI) questions.
+
+The project was broken into two parts. In part 1, I used Microsoft’s SQL Server Integration Services (SSIS) to construct a repeatable ETL process to move data from several data sources into a dimensional model instantiated as a SQL Server relational database. In part 2, I accessed the completed data warehouse tables via an OLAP layer implemented using Microsoft’s SQL Server Analysis Services (SSAS).
 
 ## Flatten 3NF Tables  
 This project involved converting dimension-related data from third normal form to first normal form.  The relevant files include  
